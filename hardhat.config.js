@@ -1,4 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
+require("dotenv").config();
 
 module.exports = {
   solidity: {
@@ -23,5 +24,3 @@ module.exports = {
     }
   }
 };
-
-// npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/kixfCo4SQqpUcT81nno3AG6g_r1R2f77 --fork-block-number 12573036

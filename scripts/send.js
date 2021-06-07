@@ -18,3 +18,6 @@ async function send() {
 }
 
 send();
+
+// Used against a persistent localhost
+// npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>
